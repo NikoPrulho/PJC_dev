@@ -1,12 +1,12 @@
 :root {
     /* ---------- Colors ---------- */
 
-    --color-red-1 : #8C1B1B ; /* rouge Purpan */
-    --color-red-2 : #582921 ;
+    --color-red-1 : #861710 ; /* rouge Purpan */
+    --color-red-2 : #4B1515 ;
 
-    --color-green-1 : #003E2B ; /* vert Purpan */
-    --color-green-2 : #005239 ;
-    --color-green-3 : #3e7665 ;
+    --color-green-1 : #005E00 ; /* vert Purpan */
+    --color-green-2 : #478A0E ;
+    --color-green-3 : #8DB61C ;
 
     --color-black-1 : #000000 ; /* noir pure */
     --color-black-2 : #08090D ;  
@@ -17,7 +17,8 @@
     --color-white-1 : #FFFFFF ; /* blanc pur */
     --color-white-2 : #F5F5F5 ; 
 
-    --color-jaune-1 : #FFD500 ;
+    --color-jaune-1 : #FFE880 ;
+    --color-jaune-2 : #FDF8B4 ;
 
     --color-shadow-1: rgba(0, 0, 0, 0.1);
 

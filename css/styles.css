@@ -109,6 +109,7 @@ html {
 
 body {
     background: var(--color-white-2);
+    size:100%;
 }
 
 div, a, img {

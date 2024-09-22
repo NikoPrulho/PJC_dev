@@ -22,9 +22,9 @@
 
     --color-shadow-1: rgba(0, 0, 0, 0.1);
 
-    --gradiant-nav-banner: linear-gradient(162deg, #003E2Bd9 35%, #8C1B1Bd9 100%);
+    --gradiant-nav-banner: linear-gradient(162deg, #005E00d9 35%, #861710d9 100%);
     --gradiant-nav-btn-contact: linear-gradient(162deg, #F5F5F5 35%, #a1a1a1 100%);
-    --gradiant-nav-btn-contact-hover: linear-gradient(162deg, #8C1B1B 35%, #290E11 100%);
+    --gradiant-nav-btn-contact-hover: linear-gradient(162deg, #861710 35%, #290E11 100%);
 
 
 

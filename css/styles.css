@@ -22,9 +22,9 @@
 
     --color-shadow-1: rgba(0, 0, 0, 0.1);
 
-    --gradiant-nav-banner: linear-gradient(162deg, #005E00d9 35%, #861710d9 100%);
+    --gradiant-nav-banner: linear-gradient(162deg, #005E00d9 35%, #8C1B1Bd9 100%);
     --gradiant-nav-btn-contact: linear-gradient(162deg, #F5F5F5 35%, #a1a1a1 100%);
-    --gradiant-nav-btn-contact-hover: linear-gradient(162deg, #861710 35%, #290E11 100%);
+    --gradiant-nav-btn-contact-hover: linear-gradient(162deg, #8C1B1B 35%, #290E11 100%);
 
 
 
@@ -32,9 +32,9 @@
 
     --font-base-size: 16px;
 
-    --font-family-banner: "griffon", serif;
-    --font-family-title: 'Roboto', sans-serif;
-    --font-family-sub-title: "headline-gothic-atf", sans-serif;
+    --font-family-banner: "Antonio", serif;
+    --font-family-title: 'Montserrat', sans-serif;
+    --font-family-sub-title: "Montserrat", sans-serif;
     --font-family-text: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-small-text: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
@@ -72,7 +72,6 @@
     --container-max-width-50: 650px;
     --container-max-width-40: 520px;
     --container-max-width-30: 390px;
-    --container-padding: 1rem;
 
     --breakpoint-mobile: 480px;
     --breakpoint-tablet: 768px;
@@ -104,18 +103,22 @@
 }
 
 html {
-    font-size: var(--font-base-size);
-   
+    font-size:  var(--font-base-size)
 }
 
 body {
     background: var(--color-white-2);
-    size:100%;
 }
 
-div, a, img {
+
+div, a, img, body{
     border: 1px solid #00000000;
 }
+
+main {
+    flex: 1;
+}
+
 
 
 
@@ -161,8 +164,8 @@ div, a, img {
     font-style: normal;
     text-decoration: none;
     text-align: center;
-    letter-spacing: 0.2rem;
-    font-weight: 200;
+    letter-spacing: 0rem;
+    font-weight: 700;
 
     color: var(--color-white-1);
 }
@@ -225,7 +228,7 @@ div, a, img {
     border : 0 ;
     border-radius: var(--border-radius-l);
 
-    padding: var(--spacing-s) var(--spacing-m) var(--spacing-xs) var(--spacing-m);
+    padding: var(--spacing-s) var(--spacing-m) var(--spacing-s) var(--spacing-m);
 }
 
 #nav_buton_contact_fix:hover {
@@ -233,7 +236,7 @@ div, a, img {
     color : var(--color-white-1) ;
     transition: 500ms ease-out;
 }
-/* ---------- Menu mobile et responsive ---------- */
+/* ---------- Menu mobile (telephone/tablette) et responsive ---------- */
 
 /* Cacher le menu mobile sur les grands écrans */
 #mobile_menu_container {
@@ -241,7 +244,7 @@ div, a, img {
 }
 
 /* Bandeau mobile */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     /* Cacher le menu classique */
     #flb_nav_fix {
         display: none;
@@ -508,10 +511,14 @@ div, a, img {
 
 .footer_title {
     font-size: var(--font-size-xl);
+
     font-family: var(--font-family-sub-title);
+    font-weight: 700;
     letter-spacing: 0.13rem;
     font-style: normal;
     color: var(--color-white-1);
+
+    text-align: center;
     
 
     padding-top : var(--spacing-m);
@@ -847,9 +854,5 @@ div, a, img {
     #footer_legal_box {
         flex-direction: column;
         gap: var(--spacing-s);
-    }
-
-    html {
-        font-size:10px;
     }
 }

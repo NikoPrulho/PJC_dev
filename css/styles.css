@@ -4,9 +4,9 @@
     --color-red-1 : #861710 ; /* rouge Purpan */
     --color-red-2 : #4B1515 ;
 
-    --color-green-1 : #003400 ; /* vert Purpan */
-    --color-green-2 : #478A0E ;
-    --color-green-3 : #8DB61C ;
+    --color-green-1 : #003E2B ; /* vert Purpan */
+    --color-green-2 : #005239 ;
+    --color-green-3 : #3E7564 ;
 
     --color-black-1 : #000000 ; /* noir pure */
     --color-black-2 : #08090D ;  
@@ -22,7 +22,7 @@
 
     --color-shadow-1: rgba(0, 0, 0, 0.1);
 
-    --gradiant-nav-banner: linear-gradient(162deg, #003400d9 35%, #8C1B1Bd9 100%);
+    --gradiant-nav-banner: linear-gradient(162deg, #003E2Bd9 35%, #8C1B1Bd9 100%);
     --gradiant-nav-btn-contact: linear-gradient(162deg, #F5F5F5 35%, #a1a1a1 100%);
     --gradiant-nav-btn-contact-hover: linear-gradient(162deg, #8C1B1B 35%, #290E11 100%);
 
